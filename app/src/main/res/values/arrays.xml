@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="shop_name_list">
+        <item>Love to eat fish</item>
+        <item>Petal Fried Chicken</item>
+        <item>Petal Western Restaurant</item>
+        <item>Petal Daily Material</item>
+    </string-array>
+
+    <string-array name="shop_addr_list">
+        <item>Simulation Address 1</item>
+        <item>Simulation Address 2</item>
+        <item>Simulation Address 3</item>
+        <item>Simulation Address 4</item>
+    </string-array>
+
+    <string-array name="search_hot">
+        <item>Fried Chicken</item>
+        <item>Western food</item>
+        <item>Japanese Cuisine</item>
+    </string-array>
+
+    <string-array name="language_name">
+        <item>中文</item>
+        <item>عربي</item>
+        <item>Español</item>
+        <item>English</item>
+        <item>Français</item>
+        <item>русские</item>
+    </string-array>
+
+    <string-array name="language_code">
+        <item>zh</item>
+        <item>ar</item>
+        <item>es</item>
+        <item>en</item>
+        <item>fr</item>
+        <item>ru</item>
+    </string-array>
+</resources>

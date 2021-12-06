@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88000000">
+
+    <RelativeLayout
+        android:id="@+id/rl_video"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_200"
+        android:layout_gravity="center"
+        android:background="@color/black"
+        android:visibility="visible">
+
+        <SurfaceView
+            android:id="@+id/sf_video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible" />
+
+        <FrameLayout
+            android:id="@+id/control_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_back"
+                android:src="@mipmap/back_white"
+                android:layout_marginStart="6dp"
+                android:padding="5dp"
+                android:layout_width="@dimen/hiad_30_dp"
+                android:layout_height="@dimen/hiad_30_dp">
+            </ImageView>
+            <RelativeLayout
+                android:id="@+id/buffer_rl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:visibility="visible">
+
+                <ProgressBar
+                    android:id="@+id/pb_buffer"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:indeterminate="true"
+                    android:indeterminateDrawable="@drawable/progress_bar_loading" />
+
+                <TextView
+                    android:id="@+id/play_process_buffer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pb_buffer"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/play_btn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/ic_pause" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="2"
+                    android:gravity="center">
+
+                    <SeekBar
+                        android:id="@+id/seek_bar"
+                        style="@android:style/Widget.DeviceDefault.SeekBar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:max="100"
+                        android:progress="0" />
+
+                    <TextView
+                        android:id="@+id/current_time_tv"
+                        android:layout_width="55dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/seek_bar"
+                        android:text="00:00"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/total_time_tv"
+                        android:layout_width="55dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/seek_bar"
+                        android:layout_alignParentEnd="true"
+                        android:gravity="end"
+                        android:text="00:00"
+                        android:textColor="#FFFFFF" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:src="@mipmap/ic_fullscreen"
+                    android:id="@+id/fullscreen_btn"
+                    android:layout_width="@dimen/hiad_20_dp"
+                    android:layout_height="@dimen/hiad_20_dp"
+                    android:layout_marginRight="10dp"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/iv_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_photoViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.huawei.hmscore.industrydemo.wight.CustomViewPager
+            android:id="@+id/vp_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</FrameLayout>

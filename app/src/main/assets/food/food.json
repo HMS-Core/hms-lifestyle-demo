@@ -1,0 +1,227 @@
+[
+  {
+    "foodId": 1,
+    "restId": 1,
+    "foodName": "Boiled Fish",
+    "foodType": "Speciality",
+    "foodDes": "Spicy and delicious",
+    "price": "88",
+    "imgAdd": "rest1_food1"
+  },
+  {
+    "foodId": 2,
+    "restId": 1,
+    "foodName":"Spicy Grilled Fish",
+    "foodType": "Speciality",
+    "foodDes": "Spicy and delicious",
+    "price": "98",
+    "imgAdd": "rest1_food3"
+  },
+  {
+    "foodId": 3,
+    "restId": 1,
+    "foodName": "Fried Rice with Shrimp",
+    "foodType": "Staple Food",
+    "foodDes": "Shrimp is tender and rice is soft and sticky",
+    "price": "38",
+    "imgAdd": "rest1_food2"
+  },
+  {
+    "foodId": 4,
+    "restId": 2,
+    "foodName":"Roast Chicken(whole)",
+    "foodType": "Speciality",
+    "foodDes": "Cruncly on the outside and tender on the inside",
+    "price": "58",
+    "imgAdd": "rest2_food1"
+  },
+  {
+    "foodId": 5,
+    "restId": 2,
+    "foodName": "Spicy Chicken Wings",
+    "foodType": "Speciality",
+    "foodDes": "Spicy and addictive",
+    "price": "38",
+    "imgAdd": "rest2_food3"
+  },
+  {
+    "foodId": 6,
+    "restId": 2,
+    "foodName": "Spicy Chicken Leg",
+    "foodType": "Speciality",
+    "foodDes": "Cruncly on the outside and tender on the inside",
+    "price": "38",
+    "imgAdd": "rest2_food4"
+  },
+  {
+    "foodId": 7,
+    "restId": 2,
+    "foodName":"Original Chicken Wings",
+    "foodType": "Speciality",
+    "foodDes": "Fresh and delicious",
+    "price": "38",
+    "imgAdd": "rest2_food5"
+  },
+  {
+    "foodId": 8,
+    "restId": 2,
+    "foodName": "Original Chicken Leg",
+    "foodType": "Speciality",
+    "foodDes": "Cruncly on the outside and tender on the inside",
+    "price": "38",
+    "imgAdd": "rest2_food6"
+  },
+  {
+    "foodId": 9,
+    "restId": 2,
+    "foodName": "Fry Fish",
+    "foodType": "Snack",
+    "foodDes": "Crunchy and delicious",
+    "price": "38",
+    "imgAdd": "rest2_food7"
+  },
+  {
+    "foodId": 10,
+    "restId": 2,
+    "foodName": "Fries",
+    "foodType": "Snack",
+    "foodDes": "Savoury",
+    "price": "18",
+    "imgAdd": "rest2_food2"
+  },
+  {
+    "foodId": 11,
+    "restId": 3,
+    "foodName": "Roast Chicken Wings",
+    "foodType": "Snack",
+    "foodDes": "Spicy and delicious",
+    "price": "38",
+    "imgAdd": "rest3_food1"
+  },
+  {
+    "foodId": 12,
+    "restId": 3,
+    "foodName": "Crispy Shrimp",
+    "foodType": "Snack",
+    "foodDes": "Cruncly on the outside and tender on the inside",
+    "price": "48",
+    "imgAdd": "rest3_food8"
+  },
+  {
+    "foodId": 13,
+    "restId": 3,
+    "foodName": "Grilled Salmon",
+    "foodType": "Speciality",
+    "foodDes": "Fresh and delicious",
+    "price": "48",
+    "imgAdd": "rest3_food2"
+  },
+  {
+    "foodId": 14,
+    "restId": 3,
+    "foodName":"Grilled Fish with Lemon",
+    "foodType": "Speciality",
+    "foodDes": "Unique taste",
+    "price": "48",
+    "imgAdd": "rest3_food3"
+  },
+  {
+    "foodId": 15,
+    "restId": 3,
+    "foodName":"Sirlion Steak",
+    "foodType": "Speciality",
+    "foodDes": "Fresh and delicious",
+    "price": "138",
+    "imgAdd": "rest3_food7"
+  },
+  {
+    "foodId": 16,
+    "restId": 3,
+    "foodName": "Lamb Chops",
+    "foodType": "Speciality",
+    "foodDes": "Spicy and delicious",
+    "price": "98",
+    "imgAdd": "rest3_food9"
+  },
+  {
+    "foodId": 17,
+    "restId": 3,
+    "foodName": "Salmon Salad",
+    "foodType": "Salad",
+    "foodDes": "Fresh and delicious",
+    "price": "48",
+    "imgAdd": "rest3_food4"
+  },
+  {
+    "foodId": 18,
+    "restId": 3,
+    "foodName":"Vegetable Salad",
+    "foodType": "Salad",
+    "foodDes": "Light and delicious",
+    "price": "38",
+    "imgAdd": "rest3_food5"
+  },
+  {
+    "foodId": 19,
+    "restId": 3,
+    "foodName": "Fruit Salad",
+    "foodType": "Salad",
+    "foodDes": "Nutritive",
+    "price": "38",
+    "imgAdd": "rest3_food6"
+  },
+  {
+    "foodId": 20,
+    "restId": 4,
+    "foodName": "Sashimi Platter",
+    "foodType": "Speciality",
+    "foodDes": "Fresh and delicious",
+    "price": "138",
+    "imgAdd": "rest4_food1"
+  },
+  {
+    "foodId": 21,
+    "restId": 4,
+    "foodName":"Sushi Platter",
+    "foodType": "Speciality",
+    "foodDes": "Fresh and delicious",
+    "price": "118",
+    "imgAdd": "rest4_food5"
+  },
+  {
+    "foodId": 22,
+    "restId": 4,
+    "foodName": "Chicken Skewers",
+    "foodType": "Snack",
+    "foodDes": "Spicy and delicious",
+    "price": "38",
+    "imgAdd": "rest4_food2"
+  },
+  {
+    "foodId": 23,
+    "restId": 4,
+    "foodName": "Mushroom Skewers",
+    "foodType": "Snack",
+    "foodDes": "Scented and delicious",
+    "price": "28",
+    "imgAdd": "rest4_food4"
+  },
+  {
+    "foodId": 24,
+    "restId": 4,
+    "foodName": "Tempura Shrimp",
+    "foodType": "Snack",
+    "foodDes": "Cruncly on the outside and tender on the inside",
+    "price": "58",
+    "imgAdd": "rest4_food6"
+  },
+  {
+    "foodId": 25,
+    "restId": 4,
+    "foodName": "Rice Serviced with Eel",
+    "foodType": "Staple Food",
+    "foodDes": "Scented tender and smooth, rice grains soft and waxy",
+    "price": "68",
+    "imgAdd": "rest4_food3"
+  }
+]

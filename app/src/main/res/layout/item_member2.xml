@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data></data>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="@dimen/hiad_10_dp"
+        android:layout_marginTop="@dimen/hiad_10_dp"
+        android:layout_marginRight="@dimen/hiad_5_dp"
+        android:layout_marginBottom="@dimen/hiad_10_dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/image_coupon"
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/member2" />
+
+        <TextView
+            android:id="@+id/text_member"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:text="@string/member_platinum"
+            android:textColor="@color/white"
+            android:textSize="@dimen/hiad_text_16_sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/text_join"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/image_coupon"
+            android:layout_alignBottom="@id/image_coupon"
+            android:layout_marginRight="@dimen/dp_5"
+            android:text="@string/member_join"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp_10"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/text_coupon"
+            android:textColor="@color/yellow"
+            android:gravity="center"
+            android:textSize="@dimen/hiad_text_16_sp"
+            android:paddingLeft="52dp"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:visibility="visible"
+            android:background="@mipmap/coupon_bg1"
+            android:text="@string/coupon_five2one" />
+
+        <TextView
+            android:id="@+id/text_pick"
+            android:textColor="@color/white"
+            android:layout_width="@dimen/dp_50"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/text_coupon"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:layout_marginRight="@dimen/dp_5"
+            android:layout_centerVertical="true"
+            android:text="@string/member_pick"
+            android:textStyle="bold"
+            android:textSize="@dimen/dp_13"
+            />
+        <TextView
+            android:id="@+id/text_backgroud"
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:background="@color/coupon_rule_gray"
+            android:gravity="center"
+            android:text=""
+            android:textSize="@dimen/hiad_text_16_sp"
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+</layout>

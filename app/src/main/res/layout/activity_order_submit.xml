@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/submit_page_bg">
+
+        <include
+            android:id="@+id/lTitle"
+            layout="@layout/layout_base_title" />
+
+        <RelativeLayout
+            android:id="@+id/first_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lTitle"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/submit_info_bg"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/rl_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick">
+
+                <TextView
+                    android:id="@+id/order_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@id/address_more"
+                    android:text="雨花街道 南开路A区 胜利路大韩小区"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/user_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/order_address"
+                    android:layout_marginTop="5dp"
+                    android:text="张某某  13012120120" />
+
+                <ImageView
+                    android:id="@+id/address_more"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/icon_forward" />
+
+                <TextView
+                    android:id="@+id/config_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@id/address_more"
+                    android:gravity="center"
+                    android:text="@string/configure_address"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/dispatch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl_address"
+                android:layout_marginTop="30dp"
+                android:text="@string/dispatch"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/delivered_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/dispatch"
+                android:layout_toStartOf="@id/dispatch_more"
+                android:onClick="onClick"
+                android:text="@string/delivered_time"
+                android:textColor="@color/num_button_bg" />
+
+            <ImageView
+                android:id="@+id/dispatch_more"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_alignTop="@id/dispatch"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/icon_forward"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/first_card"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/submit_info_bg"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/rest_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="花小鱼（华华南路）"
+                android:textColor="@color/submit_title"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_below="@id/rest_name"
+                android:layout_marginTop="10dp"
+                android:background="@color/submit_line" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_orderItems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line"
+                android:layout_marginTop="10dp"
+                android:overScrollMode="never" />
+
+            <TextView
+                android:id="@+id/packing_charges"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rv_orderItems"
+                android:layout_marginTop="10dp"
+                android:text="@string/packing_charges"
+                android:textColor="@color/submit_title"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/packing_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/packing_charges"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/delivery_charges"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/packing_charges"
+                android:layout_marginTop="10dp"
+                android:text="@string/delivery_charges"
+                android:textColor="@color/submit_title"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/delivery_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/delivery_charges"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/delivery_charges"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/discounted"
+                    android:textColor="@color/submit_title" />
+
+                <TextView
+                    android:id="@+id/discount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/price" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/subtotal"
+                    android:textColor="@color/submit_title" />
+
+                <TextView
+                    android:id="@+id/subtotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/statistic_bg"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp">
+
+                <TextView
+                    android:id="@+id/total_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total_price"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/discount_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/total_price"
+                    android:text="@string/discounted_bottom"
+                    android:textColor="#FF969696"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/submit_order"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/submit_order_bg"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="@string/submit_order"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/default_bg_gray"
+        android:orientation="vertical"
+        tools:context=".page.fragment.MyFragment">
+
+    <include layout="@layout/layout_base_title" />
+
+    <LinearLayout
+            android:id="@+id/layout_personal_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/white"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingVertical="5dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp">
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/personal_information"
+                android:textColor="#363634"
+                android:textSize="20sp" />
+
+        <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/icon_forward" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/layout_voucher_management"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/white"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingVertical="5dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp"
+            android:visibility="gone">
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/voucher_management"
+                android:textColor="#363634"
+                android:textSize="20sp" />
+
+        <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/icon_forward" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/layout_message_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/white"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingVertical="5dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp"
+            android:visibility="gone">
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/message_box"
+                android:textColor="#363634"
+                android:textSize="20sp" />
+
+        <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/icon_forward" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/layout_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/white"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingVertical="5dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp">
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/settings"
+                android:textColor="#363634"
+                android:textSize="20sp" />
+
+        <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/icon_forward" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/layout_order_center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/white"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingVertical="5dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp"
+            android:visibility="gone">
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/order_center"
+                android:textColor="#363634"
+                android:textSize="20sp" />
+
+        <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/icon_forward" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/layout_survey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/hiad_6_dp"
+            android:layout_marginBottom="@dimen/hiad_6_dp"
+            android:background="@color/white"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+        <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="@dimen/hiad_15_dp"
+                android:text="@string/setting_survey"
+                android:textColor="@color/red"
+                android:textSize="@dimen/sp_20"
+                android:textStyle="bold" />
+
+        <ImageView
+                android:id="@+id/survey_image"
+                android:layout_width="@dimen/dp_50"
+                android:layout_height="@dimen/dp_30"
+                android:layout_gravity="center"
+                android:paddingStart="@dimen/dp_5"
+                android:src="@mipmap/survey" />
+    </LinearLayout>
+
+</LinearLayout>

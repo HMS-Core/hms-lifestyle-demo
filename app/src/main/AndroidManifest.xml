@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="com.huawei.hmscore.industrydemo">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- Scan avatar -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.huawei.permission.SECURITY_DIAGNOSE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <queries>
+        <intent>
+            <action android:name="com.huawei.hms.core.aidlservice" />
+        </intent>
+    </queries>
+
+    <application
+            android:name=".MainApplication"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/Main_AppTheme"
+            android:usesCleartextTraffic="true">
+        <activity android:name=".page.PaymentSucceedActivity" />
+        <activity android:name=".page.CashierActivity" />
+        <activity android:name=".page.OrderSubmitActivity" />
+        <activity android:name=".page.TakeawayActivity" />
+        <activity
+                android:name=".page.VoucherMgtActivity"
+                android:exported="true" />
+        <activity
+                android:name=".page.PersonalInfoActivity"
+                android:exported="true" />
+        <activity
+                android:name=".page.activity.PrivacyActivity"
+                android:theme="@style/Main_AppTheme.Privacy">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".MainActivity"
+                android:launchMode="singleTask" />
+        <activity android:name=".page.AddressListActivity" />
+        <activity android:name=".page.AddressEditActivity" />
+        <activity android:name=".page.activity.ContactUsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".page.OrderDetailAct"
+                android:exported="true" />
+        <activity
+                android:name=".page.OrderListActivity"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                        android:host="com.huawei.hmscore.industrydemo"
+                        android:path="/orderList"
+                        android:scheme="pushscheme" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".page.PoiAct"
+                android:exported="true" />
+
+        <meta-data
+                android:name="com.huawei.hms.ml.DEPENDENCY"
+                android:value="bcr" />
+
+        <activity android:name=".page.activity.SplashActivity" />
+        <activity android:name=".page.activity.WebViewActivity" />
+        <activity android:name=".page.activity.SearchActivity" />
+        <activity android:name=".page.activity.SearchResultActivity" />
+        <activity android:name=".page.activity.FeedbackActivity" />
+        <activity android:name=".page.activity.CommentActivity" />
+        <activity android:name=".page.activity.PaySettingActivity" />
+        <activity android:name=".page.activity.SelectResturantActivity" />
+        <activity android:name=".page.activity.SystemSettingActivity" />
+        <activity android:name=".page.activity.MessageInfoActivity" />
+        <activity android:name=".page.activity.RestaurantDetailActivity" />
+        <activity android:name=".page.activity.PhotoEditActivity" />
+        <activity android:name=".page.activity.MessageInfoDetailActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                        android:host="com.huawei.hmscore.industrydemo"
+                        android:path="/messageinfo"
+                        android:scheme="pushscheme" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".page.activity.PanaromaActivity"
+                android:configChanges="keyboardHidden|orientation|screenSize"
+                android:screenOrientation="sensor" />
+        <activity
+                android:name=".page.activity.PhotoVideoViewActivity"
+                android:configChanges="orientation|screenSize"
+                android:theme="@style/Translucent" />
+
+        <provider
+                android:name="com.huawei.hmscore.industrydemo.provider.LifeFileProvider"
+                android:authorities="${applicationId}.life.fileProvider"
+                android:exported="false"
+                android:grantUriPermissions="true">
+            <meta-data
+                    android:name="android.support.FILE_PROVIDER_PATHS"
+                    android:resource="@xml/file_paths" />
+        </provider>
+
+        <service
+                android:name=".service.PushService"
+                android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

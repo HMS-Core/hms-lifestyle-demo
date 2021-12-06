@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#ab1515</color>
+    <color name="yellow">#FFC107</color>
+    <color name="blue">#80C7FF</color>
+    <color name="color_line_gray">#CBCBCB</color>
+
+    <!---MainActivity -->
+    <color name="default_bg_gray">#faf9fa</color>
+    <color name="tab_text_color_selected">#d81e06</color>
+    <color name="tab_text_color_no_selected">#000000</color>
+
+    <!---SearchBox -->
+    <color name="color_bdg_gray">#F2F2F2</color>
+    <color name="color_search_bgd_gray">#C4C8D0</color>
+
+    <!--KitTip-->
+    <color name="tip_view_bdg">#8f000000</color>
+    <color name="tip_view_bdg2">#D0878684</color>
+
+    <!-- Version update -->
+    <color name="version_update">#5a97ff</color>
+
+    <!-- TakeawayActivity -->
+    <color name="category_unselected">#FFF0F0F0</color>
+    <color name="category_selected">#00FFFFFF</color>
+    <color name="num_button_bg">#FFFF9F6C</color>
+    <color name="statistic_bg">#FF10100F</color>
+    <color name="price">#FFE2472F</color>
+    <color name="sales_volume">#FFADADAD</color>
+    <color name="coupon_rule_gray">#4F000000</color>
+
+    <!-- OrderSubmitActivity -->
+    <color name="submit_order">#FFF2CC5B</color>
+    <color name="submit_line">#FFF7F7F7</color>
+    <color name="submit_center_bg">#FFF0F0F0</color>
+    <color name="discount_color">#FF969696</color>
+    <color name="submit_title">#FF4D4D4D</color>
+    <color name="submit_end_bg">#FFF0F0F0</color>
+
+    <color name="background_button_default">#F65959</color>
+    <color name="red_type_1">#db4f3a</color>
+    <color name="red_type_2">#d24d39</color>
+
+    <color name="comment_text_color">#f6f6f6</color>
+    <color name="comment_select_bg_color">#80000000</color>
+    <color name="page_bg_color">#f7f7f7</color>
+
+    <color name="setting_pay_text">#000000</color>
+    <color name="green">#008B00</color>
+    <color name="switch_close">#666666</color>
+
+    <color name="light_green_1">#72D012</color>
+    <color name="light_red_1">#DF0000</color>
+
+    <color name="comment">#fd531b</color>
+    
+    <color name="color_0f0f0f">#0f0f0f</color>
+    <color name="color_de4c4d">#de4c4d</color>
+    <color name="color_ff0000">#ff0000</color>
+
+</resources>

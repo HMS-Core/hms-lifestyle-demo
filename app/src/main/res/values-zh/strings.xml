@@ -1,0 +1,383 @@
+<resources>
+    <string name="app_name">便捷生活Demo</string>
+    <string name="product_file_path">rest-zh</string>
+    <string name="food_file_path">food-zh</string>
+
+    <!-- BaseActivity-->
+    <string name="log_in_success">登录成功</string>
+    <string name="log_in_fail">登录失败：</string>
+
+    <string name="log_out_success">退出登录成功</string>
+
+    <!-- BaseDialog-->
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+    <string name="welcome">欢迎</string>
+    <string name="sign_in_first">请登录用户</string>
+
+    <!-- MainActivity-->
+    <string name="title_home">首页</string>
+    <string name="title_video">评论</string>
+    <string name="title_my">我的</string>
+    <string name="title_scan">扫码</string>
+    <string name="title_voice">语音</string>
+    <string name="title_msg">消息</string>
+    <string name="ad_flag">Ad</string>
+    <string name="add_coupon_success">成功添加优惠券</string>
+    <string name="restaurant_not_existence">餐厅不存在</string>
+    <string name="please_use_correct_qr_code">请检查二维码是否正确</string>
+    <string name="data_init_fail">数据初始化失败，请重启Demo。</string>
+
+    <!-- SearchActivity-->
+    <string name="search_no_tip">请输入搜索内容</string>
+    <string name="search_history">搜索历史</string>
+    <string name="search_hot">热门搜索</string>
+    <string name="delete_history">清理搜索历史</string>
+    <string name="check_delete_history">确认清空历史记录吗？</string>
+
+    <!-- MyFragment-->
+    <string name="my_logout">退出登录</string>
+    <string name="click_to_login">点击登录</string>
+    <string name="please_sign_first">请先登录</string>
+    <string name="confirm_log_out">是否确认退出登录</string>
+
+    <!-- NewsListFragment-->
+    <string name="news_no_data">暂无数据</string>
+    <string name="news_no_more_data">没有更多数据</string>
+
+    <!-- kits information-->
+    <string name="adskit_name">广告服务</string>
+    <string name="ads_ads">广告展示</string>
+    <string name="ads_link">https://developer.huawei.com/consumer/cn/hms/huawei-adskit?ha_source=hms7</string>
+
+    <string name="accountkit_name">华为帐号服务</string>
+    <string name="account_link">https://developer.huawei.com/consumer/cn/hms/huawei-accountkit?ha_source=hms7</string>
+    <string name="account_login">快捷登录</string>
+
+    <string name="map_location">定位服务+地图服务</string>
+    <string name="gps_is_off">定位开关关闭，部分功能可能不能使用</string>
+    <string name="map_location_link">https://developer.huawei.com/consumer/cn/hms/huawei-MapKit?ha_source=hms7</string>
+    <string name="delivery_path">送餐路径展示</string>
+    <string name="map_location_des">根据用户当前位置与餐厅地址，生成最合适的送餐路径，方便骑手快速抵达将餐点送达用户侧，提高运营效率。</string>
+
+    <string name="mapkit_name">地图服务</string>
+    <string name="map_link">https://developer.huawei.com/consumer/cn/hms/huawei-MapKit?ha_source=hms7</string>
+    <string name="map_map">地图展示</string>
+    `
+    <string name="site_name">位置服务</string>
+    <string name="site_link">https://developer.huawei.com/consumer/cn/hms/huawei-sitekit?ha_source=hms7</string>
+    <string name="site_geo">周边商户搜索</string>
+    <string name="site_geo_des">通过用户输入的关键词，自动填充地点名称，帮助用户更加快速便捷地完成地址填写，优化用餐体验。</string>
+
+    <string name="scan_name">统一扫码服务</string>
+    <string name="scan_link">https://developer.huawei.com/consumer/cn/hms/huawei-scankit?ha_source=hms7</string>
+    <string name="scan_pay">扫码支付</string>
+    <string name="scan_code">扫描二维码</string>
+    <string name="scan_shopping">扫码购</string>
+    <string name="scan_qr_des">统一扫码服务能提供便捷的二维码与条形码扫描、解析、生成能力，实现优惠券获取，餐厅二维码共享等外卖场景。（支持Android/iOS）</string>
+
+    <string name="mlkit_name">机器学习服务</string>
+    <string name="ml_link">https://developer.huawei.com/consumer/cn/hms/huawei-mlkit?ha_source=hms7</string>
+    <string name="ml_asr">语音识别</string>
+    <string name="ml_translate">翻译</string>
+
+    <string name="analytics_name">分析服务</string>
+    <string name="analytics_link">https://developer.huawei.com/consumer/cn/hms/huawei-analyticskit?ha_source=hms7</string>
+    <string name="analytics_report">便捷生活行业应用</string>
+
+    <string name="location_name">定位服务</string>
+    <string name="location_link">https://developer.huawei.com/consumer/cn/hms/huawei-locationkit?ha_source=hms7</string>
+    <string name="location_geo">地理围栏</string>
+    <string name="location_lbs">基于定位的服务</string>
+
+    <string name="push_name">推送服务</string>
+    <string name="push_link">https://developer.huawei.com/consumer/cn/hms/huawei-pushkit?ha_source=hms7</string>
+    <string name="push_message">消息推送</string>
+    <string name="subscribe_message">订购/收藏消息</string>
+
+    <string name="video_name">视频服务</string>
+    <string name="video_link">https://developer.huawei.com/consmer/cn/hms/huawei-videokit?ha_source=hms7</string>
+    <string name="video_play">视频展示餐厅介绍</string>
+
+    <string name="panorama_name">全景服务</string>
+    <string name="panorama_link">https://developer.huawei.com/consumer/cn/hms/huawei-panoramakit?ha_source=hms7</string>
+    <string name="panorama_fullview">交互式视图</string>
+
+    <string name="safety_name">安全检测服务</string>
+    <string name="safety_link">https://developer.huawei.com/consumer/cn/hms/huawei-safetydetectkit?ha_source=hms7</string>
+    <string name="system_integrate">系统完整性检测</string>
+
+    <string name="network_name">Network Kit</string>
+    <string name="network_link">https://developer.huawei.com/consumer/cn/hms/huawei-networkkit?ha_source=hms7</string>
+    <string name="good_connection">高质量网络连接</string>
+
+    <string name="wallet_name">钱包服务</string>
+    <string name="wallet_link">https://developer.huawei.com/consumer/cn/hms/huawei-walletkit?ha_source=hms7</string>
+    <string name="wallet_member">会员卡</string>
+
+    <string name="fido_name">线上快速身份验证服务</string>
+    <string name="fido_link">https://developer.huawei.com/consumer/cn/hms/huawei-fido?ha_source=hms7</string>
+    <string name="fido_face">面容认证</string>
+    <string name="fido_finger">指纹认证</string>
+
+    <string name="ml_translation_des">机器学习服务提供在线和离线的文本翻译，端侧支持12种语言、云测支持21种语言的翻译，低时延，BLEU值达32.44。为跨语言便捷生活App解决顾客评价内容翻译。</string>
+    <string name="account_login_des">通过一键快捷登录功能，用户不必输入帐号、密码，不必经过繁琐验证，即可通过华为帐号快速登录并使用便捷生活App。</string>
+    <string name="video_play_des">视频服务支持低卡顿、高清晰度、无缝切换的视频播放，让用户畅享稳定高清的视频，在更具场景化和真实性的视频体验中全面了解餐厅。</string>
+    <string name="ml_bankcard_des">机器学习服务提供包括银行卡识别在内的通用卡证识别纯端侧能力，覆盖全球5类主流银行卡识别，低时延，准确率达99&#37;，可广泛用于金融支付场景中。</string>
+    <string name="ads_des">通过流量变现服务在应用内广告中获得更多收益。</string>
+    <string name="location_lbs_des">快速定位用户当前位置，展示周边餐厅信息。</string>
+    <string name="push_notify_des">及时精准的消息推送服务，助力应用精准触达用户，提升使用体验。</string>
+    <string name="analytics_report_des">华为分析服务作为免费的跨平台、多设备数据分析产品，可帮您提供行业分析报告与行业基准数据对比，便于衡量自身优势与差距，同时进行用户分析、漏斗分析、帮您全面洞察不同用户的行为特征，寻找增长潜力，实现数据驱动的精细化运营。</string>
+    <string name="ml_asr_des">语音搜索方案在便捷生活App中实现高精度的ASR（自动语音识别）功能，帮助用户快捷搜索餐厅或菜品。</string>
+    <string name="panorama_fullview_des">全景图像在三维立体空间的展示和交互能力，为用户提供沉浸式的全景浏览体验，使观者犹如身在其中。</string>
+    <string name="safety_detect_sys_des">提供系统完整性检测，虚假用户检测，恶意WiFi检测等服务，为用户打造安全的网购支付环境，助力开发者的App防范批量注册、撞库攻击等。</string>
+    <string name="network_connect_des">网络Kit聚合远场网络通信最佳实践，为您提供简单易用、低时延、高吞吐和高安全的端云传输通道。未来将加入hQuic等更多功能提供更快的连接建立速度，更强的抗丢包能力以及更高的吞吐量。</string>
+    <string name="wallet_member_des">用户可将将各类实体会员卡添加到华为钱包，并通过华为钱包随时查看会员所拥有的的权益，享受会员卡所规定的各类优惠.</string>
+    <string name="fido_finger_des">华为提供安全的指纹认证能力。通过本地指纹特征认证，快速进行用户鉴权。</string>
+    <string name="fido_face_des">华为提供安全的面容认证能力。通过本地面容特征认证，快速进行用户鉴权。</string>
+
+    <string name="address_manage">地址管理</string>
+    <string name="address_choose">选择收货地址</string>
+    <string name="address_add">新增地址</string>
+    <string name="address_save">保存地址</string>
+    <string name="address_delete">删除地址</string>
+    <string name="delete">删除</string>
+    <string name="one_default_address">至少设置一个默认地址</string>
+    <string name="please_enter_info">请输入必填内容</string>
+    <string name="default_address">默认地址</string>
+    <string name="edit">编辑</string>
+
+    <string name="my_order">我的订单</string>
+    <string name="send_to">送到:</string>
+    <string name="time">时间</string>
+    <string name="money_unit">￥</string>
+    <string name="wait_pay">待支付</string>
+    <string name="wait_send">待送货</string>
+    <string name="have_sent">已送达</string>
+    <string name="have_comment">已完成</string>
+    <string name="have_ensure">已确认</string>
+
+    <string name="contact">联系人</string>
+    <string name="name">姓名</string>
+    <string name="phone">电话</string>
+    <string name="region">地区</string>
+    <string name="region_hint">请填写地区</string>
+    <string name="address">详细地址</string>
+    <string name="address_hint">小区楼栋/门牌号</string>
+    <string name="set_default_address">设置默认地址</string>
+    <string name="zero_result_toast">没有更多结果</string>
+    <string name="location">定位</string>
+
+    <string name="user_center">用户中心</string>
+    <string name="personal_information">个人信息</string>
+    <string name="voucher_management">卡券管理</string>
+    <string name="message_box">消息盒子</string>
+    <string name="settings">设置</string>
+    <string name="order_center">订单中心</string>
+    <string name="card_package">卡包</string>
+    <string name="coupon_package">券包</string>
+    <string name="order_delete_confirm">是否确认删除这条订单？</string>
+
+    <!-- TakeawayActivity -->
+    <string name="to_pay">去结算</string>
+    <string name="order_dishes">    点菜    </string>
+    <string name="assessment">    评价    </string>
+    <string name="statistic">选了%d个菜，共计%d元</string>
+    <string name="statistic_non">选了0个菜，共计0元</string>
+    <string name="announcement">公告：欢迎光临，很高兴为您服务~</string>
+    <string name="delivery_duration">配送约47分钟</string>
+    <string name="product_no_wifi">没有Wifi链接不能进行视频播放，请连接Wifi并重启应用。</string>
+    <string name="coupon_claimed">优惠券已领取。</string>
+    <string name="pick_coupon">领</string>
+    <string name="coupon_rule">%d减%d</string>
+    <string name="sales_volume">月销1588 好评度98%</string>
+
+    <!-- OrderSubmitActivity -->
+    <string name="total_price">￥%d</string>
+    <string name="discounted">已优惠</string>
+    <string name="submit_order">提交订单</string>
+    <string name="dispatch">立即送出</string>
+    <string name="delivered_time">大约%s送达</string>
+    <string name="business_hours">营业时间 %s</string>
+    <string name="configure_address">请配置地址</string>
+    <string name="packing_charges">打包费</string>
+    <string name="delivery_charges">配送费</string>
+    <string name="subtotal">小计</string>
+    <string name="discounted_bottom">已优惠 ￥%d</string>
+    <string name="please_select_address">请选择地址</string>
+    <string name="order_status">订单状态</string>
+    <string name="order_status_submit">订单已提交</string>
+    <string name="order_status_paid">订单已支付</string>
+    <string name="order_status_delivered">订单已送达</string>
+
+    <!-- CashierActivity -->
+    <string name="cashier">收银台</string>
+    <string name="select_payment_method">选择支付方式</string>
+    <string name="need_to_pay">需付%d元</string>
+    <string name="brush_face_payment">刷脸支付</string>
+    <string name="fingerprint_payment">指纹支付</string>
+    <string name="bank_card_payment">银行卡支付</string>
+    <string name="add_bank_card_tips">请先添加一张银行卡</string>
+    <string name="face_failed">人脸验证失败</string>
+    <string name="fingerprint_failed">指纹验证失败</string>
+    <string name="add_bank_card_failed">添加银行卡失败：%s。</string>
+    <string name="bank_card_result">银行卡信息\n%s</string>
+    <string name="facial_function_tips">当前用户未设置人脸信息，请前往设置。</string>
+    <string name="fingerprint_function_tips">当前用户未设置指纹信息，请前往设置。</string>
+    <string name="time_out">超时</string>
+    <string name="enroll_fingerprint">指纹录入</string>
+    <string name="enroll_fingerprint_coaching">请到设置中，找到指纹，进行指纹录入操作。</string>
+    <string name="enroll_face">人脸录入</string>
+    <string name="enroll_face_coaching">请到设置中，找到人脸识别，进行人脸录入操作。</string>
+    <string name="facial_identifying">人脸识别中</string>
+    <string name="face_acquired_good">请保持</string>
+    <string name="face_acquired_too_bright">光线太强</string>
+    <string name="face_acquired_too_dark">光线太暗</string>
+    <string name="face_acquired_too_close">离得太近</string>
+    <string name="face_acquired_too_far">离得太远</string>
+    <string name="face_acquired_too_high">手机太高了</string>
+    <string name="face_acquired_too_low">手机太低了</string>
+    <string name="face_acquired_too_right">手机太靠右了</string>
+    <string name="face_acquired_too_left">手机太靠左了</string>
+
+    <!-- PaymentSucceedActivity -->
+    <string name="payment_succeeded">支付成功！</string>
+    <string name="paid">实付%d元</string>
+    <string name="view_orders">查看订单</string>
+    <string name="to_home_page">返回首页</string>
+    <string name="privacy_title">权限说明及用户协议</string>
+    <string name="privacy_state">本Demo应用将帮助您了解如何在便捷生活应用中集成HMS Core的各项能力，以及如何在应用中集成HMS Core SDK或Kit服务。 应用演示了美食浏览，卡券领取，外卖点单，地址编辑及美食配送的过程。\n\n HMS Core为便捷生活类应用提供了创新的解决方案以加速客户获取及提高客户转化率，实现可持续的业务增长.\n\n详情参见</string>
+    <string name="privacy_title2">隐私说明</string>
+    <string name="privacyReject">拒绝</string>
+    <string name="privacyaccept">同意</string>
+    <string name="privacycontinue">继续</string>
+    <string name="exitMessage">即将退出便捷生活Demo</string>
+    <string name="confirm_button">确定</string>
+    <string name="readme_url">https://github.com/HMS-Core/hms-news-demo/blob/main/README_ZH.md</string>
+    <string name="readme_title">这里。</string>
+    <string name="agreement_url">file:///android_asset/documents-zh/agreement.html</string>
+    <string name="agreement_title">HMS CORE Demo 用户协议。</string>
+    <string name="statement_url">file:///android_asset/documents-zh/privacy.html</string>
+    <string name="privacy_summary1">本服务将需要获取“位置权限”用于首页展示所在城市或国家信息，找到附近餐厅地址并构建送餐路径，“话筒权限”用于提供语音搜索功能，“存储”用于在评论中插入图片或视频，“摄像头”用于二维码扫描，银行卡支付以及在评论中拍摄图片。如果您未使用HUAWEI ID登录，请在此确认你年满18岁或以上。在使用以上服务之前，请您授予以上权限，并且确认了解下面的隐私声明，并接受</string>
+    <string name="statement_title">关于 HMS Core 便捷生活 Demo 与隐私的声明。</string>
+
+    <string name="url_error">链接错误</string>
+    <string name="owner">Huawei Developers</string>
+    <string name="copyright_info">版权所有 2021 华为技术有限公司保留一切权利</string>
+    <string name="help_and_feedback">问卷调研</string>
+    <!-- FeedbackActivity -->
+    <string name="question1">Q1.请问您觉得我们的Demo存在哪些问题？</string>
+    <string name="question2">Q2.请问您有什么优化建议呢？</string>
+    <string name="question3">Q3.您对我们的Demo是否满意？</string>
+    <string name="feedback_content">请填写您的宝贵建议</string>
+    <string name="rating">综合评分</string>
+    <string name="submit">提交反馈</string>
+    <string name="confirm_feedback">感谢您提出的建议，我们将分析并尽快改进。</string>
+    <string name="version_update">版本更新</string>
+    <string name="version_checking">检查中...</string>
+    <string name="no_found_new_version">检查更新失败，请稍候重试</string>
+    <string name="is_the_latest_version">当前已是最新版本</string>
+    <string name="found_new_version">已有新版本发布，点击确认更新版本</string>
+    <string name="search_no_result">无相关信息</string>
+    <string name="notice">RequestNoticeZh</string>
+    <string name="sys_integrity_detecting">检查中...</string>
+    <string name="first_press_back">再按一次退出</string>
+    <string name="comment_post">发表评价</string>
+    <string name="comment_save">保存</string>
+    <string name="comment_release">发布</string>
+    <string name="comment_food">菜品</string>
+    <string name="comment_merchant">关联商户</string>
+    <string name="comment_take_picture">拍照</string>
+    <string name="comment_choose_from_gallery">从相册中选择</string>
+    <string name="comment_public_success">感谢您的评价</string>
+    <string name="image_crop">修剪照片</string>
+    <string name="comment_rating">评分：</string>
+    <string name="comment_hint"> 请记录下您对餐厅的评价，描述您的用餐体验 </string>
+    <string name="comment_rating_leval5">非常满意</string>
+    <string name="comment_rating_leval4">满意</string>
+    <string name="comment_rating_leval3">一般</string>
+    <string name="comment_rating_leval2">差</string>
+    <string name="comment_rating_leval1">非常差</string>
+    <string name="pay_setting">支付设置</string>
+    <string name="pay_by_face">人脸支付</string>
+    <string name="pay_by_fingerprints">指纹支付</string>
+    <string name="pay_by_bank">银行卡支付</string>
+    <string name="pay_auth_result">认证结果</string>
+    <string name="pay_auth_success">认证成功</string>
+    <string name="pay_auth_fail">认证失败</string>
+
+    <string name="setting_contactus">联系我们</string>>
+    <string name="setting_versionupdate">版本更新</string>>
+    <string name="setting_survey">问卷调研</string>>
+    <string name="setting_privacy">隐私声明</string>>
+    <string name="setting_notify">消息通知</string>>
+    <string name="setting_pay">支付设置</string>>
+
+    <!--comment -->
+    <string name="wifi_status_hint">您的Wi-Fi状态不安全。建议检查Wi-Fi状态</string>
+    <string name="comment_networkerror">网络错误，请稍后重试</string>
+    <string name="messageinfo_hints"> 该功能暂未开放，尽请期待</string>
+    <string name="comment_image_key">Image_url_cn</string>
+    <string name="title_comment_count">(%1$d人评论)</string>
+    <string name="title_rating">打分</string>
+    <string name="title_drive">去这</string>
+    <string name="comment_no_data">暂无评价</string>
+    <string name="title_takeaway">外卖 ></string>
+    <string name="title_comment">评价</string>
+    <string name="comment_score">分</string>
+    <string name="comment_no_score">未评分</string>
+    <string name="commmet_translate">一键翻译</string>
+    <string name="comment_username">匿名用户</string>
+    <string name="comment_membercard">会员卡领取成功</string>
+    <string name="comment_publish_time">发布于  </string>
+    <string name="coupon_five2one">满10-1</string>
+    <string name="coupon_thirty2five">满30-5</string>
+    <string name="coupon_fifty2ten">满50-10</string>
+    <string name="image_downloading">资源加载中</string>
+
+    <string name="navigation_not_support">中国区域不支持导航功能</string>
+    <string name="navigation_hint">即将跳转到Petal Map进行导航</string>
+    <string name="title_panaroma">全景展示</string>
+    <string name="member_platinum">白金会员，享专属优惠</string>
+    <string name="member_join">马上加入</string>
+    <string name="member_pick">领取</string>
+    <!--push -->
+    <string name="title_messagetitle">%1$s</string>
+    <string name="title_messagebody">%1$s</string>
+    <string name="sys_integrity_detect_success">系统检查完成，您的系统安全可用</string>
+
+
+    <!--  Coupon  -->
+    <string name="coupon_discount">￥%d</string>
+    <string name="coupon_condition">单次消费满%d使用</string>
+    <string name="coupon_validity_period">有效期：%s-%s</string>
+    <string name="coupon_use">马上\n使用</string>
+    <string name="card_number">银行卡号 :</string>
+    <string name="card_issuer">发卡行 :</string>
+    <string name="card_expire">过期时间 :</string>
+    <string name="card_type">卡类型 :</string>
+    <string name="card_organization">发卡组织 :</string>
+    <string name="card_pay">支付</string>
+
+    <!-- ContactUsActivity-->
+    <string name="life_style">便捷生活Demo</string>
+    <string name="contact_title">联系我们</string>
+    <string name="contact_version">版本 </string>
+    <string name="contact_developer">华为开发者联盟</string>
+    <string name="contact_mail">邮箱</string>
+    <string name="contact_sof">Stack Overflow</string>
+    <string name="contact_git">Github</string>
+    <string name="contact_reddit">Reddit</string>
+    <string name="contact_share">分享我们</string>
+    <string name="share_text">https://developer.huawei.com/consumer/cn/solution/hms/ecommerce?ha_source=hms7</string>
+    <string name="developer_address_source">https://developer.huawei.com/consumer/cn/hms?ha_source=hms7</string>
+
+    <!--  Card  -->
+    <string name="add_to_huawei_wallet">添加到华为钱包</string>
+    <string name="save_success">保存成功</string>
+    <string name="cancel_by_user">用户取消</string>
+    <string name="save_failed">填卡失败，请稍候重试</string>
+    <string name="wallet_card_number">卡号</string>
+    <string name="wallet_scan">便捷生活APP扫一扫</string>
+    <string name="rest_step">%1$s米</string>
+</resources>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50">
+
+            <ImageView
+                android:id="@+id/iv_Restaurant_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/tab_10dp"
+                android:paddingTop="@dimen/dp_15"
+                android:paddingRight="@dimen/dp_10"
+                android:paddingBottom="@dimen/dp_15"
+                android:src="@mipmap/icon_back" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/hiad_8_dp"
+            android:layout_marginRight="@dimen/hiad_8_dp"
+            android:layout_marginBottom="@dimen/hiad_8_dp"
+            android:background="@drawable/corner_bdg_my_lv"
+            android:orientation="vertical"
+            android:padding="@dimen/hiad_8_dp">
+
+            <TextView
+                android:id="@+id/tv_Restaurant_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/hiad_5_dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/hiad_text_18_sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:gravity="center_vertical">
+
+                    <RatingBar
+                        android:id="@+id/rt_Restaurant"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-60dp"
+                        android:layout_marginTop="-8dp"
+                        android:layout_marginRight="-60dp"
+                        android:checked="false"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:progressTint="@color/yellow"
+                        android:rating="5"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+                        android:stepSize="0.5" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginTop="-5dp"
+                    android:id="@+id/tv_Restaurant_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_toLeftOf="@id/rate"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/yellow"
+                    android:textSize="@dimen/hiad_text_14_sp" />
+
+                <TextView
+                    android:layout_marginTop="-5dp"
+                    android:id="@+id/tv_Restaurant_mark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/hiad_3_dp"
+                    android:layout_toLeftOf="@id/tv_Restaurant_number"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/hiad_text_14_sp" />
+
+                <TextView
+                    android:layout_marginTop="-5dp"
+                    android:id="@+id/tv_Restaurant_fee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/hiad_10_dp"
+                    android:layout_marginRight="@dimen/hiad_6_dp"
+                    android:layout_toLeftOf="@id/tv_Restaurant_number"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/hiad_text_14_sp" />
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/rest_cv"
+                android:layout_width="match_parent"
+                android:layout_height="148dp">
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/vp_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:id="@+id/dot_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom"
+                    android:gravity="center"
+                    android:orientation="horizontal" />
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/hiad_10_dp"
+                android:background="#FFF0F5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_Restaurant_rank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/hiad_3_dp"
+                    android:text=""
+                    android:textColor="#FFA07A"
+                    android:textSize="@dimen/hiad_text_14_sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_Restaurant_worktime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/hiad_5_dp"
+                android:text="11：00 -22：00" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/hiad_10_dp"
+                android:layout_weight="3"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_Restaurant_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/tv_navigation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginTop="@dimen/tab_5dp"
+                    android:layout_toLeftOf="@+id/tv_Restaurant_address"
+                    android:layout_weight="2"
+                    android:drawableTop="@mipmap/guide"
+                    android:gravity="center"
+                    android:text="@string/title_drive"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_14" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_takeaway"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/title_takeaway"
+                android:textColor="#FFA07A"
+                android:textSize="@dimen/sp_16"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_coupon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false" />
+
+        <TextView
+            android:id="@+id/tv_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/title_comment"
+            android:textColor="@color/comment"
+            android:textSize="@dimen/hiad_22_dp" />
+
+        <View
+            android:id="@+id/view_Restaurant"
+            android:layout_width="44dp"
+            android:layout_height="@dimen/hiad_2_dp"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="@dimen/hiad_3_dp"
+            android:background="@color/comment" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_no_data"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/comment_no_data"
+                android:textSize="@dimen/hiad_text_16_sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_Restaurant_mark"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/hiad_6_dp"
+                android:nestedScrollingEnabled="false"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

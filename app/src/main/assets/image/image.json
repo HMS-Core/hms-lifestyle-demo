@@ -1,0 +1,98 @@
+[
+  {
+    "imgId": 1,
+    "restId": 1,
+    "imgType": 2,
+    "imgAdd": "pano.jpg"
+  },
+  {
+    "imgId": 2,
+    "restId": 1,
+    "imgType": 1,
+    "imgAdd": "rest1_food2"
+  },
+  {
+    "imgId": 3,
+    "restId": 1,
+    "imgType": 1,
+    "imgAdd": "rest1_food3"
+  },
+  {
+    "imgId": 4,
+    "restId": 1,
+    "imgType": 2,
+    "imgAdd": "pano.jpg"
+  },
+  {
+    "imgId": 5,
+    "restId": 2,
+    "imgType": 1,
+    "imgAdd": "rest2_food1"
+  },
+  {
+    "imgId": 6,
+    "restId": 2,
+    "imgType": 1,
+    "imgAdd": "rest2_food2"
+  },
+  {
+    "imgId": 7,
+    "restId": 2,
+    "imgType": 1,
+    "imgAdd": "rest2_food3"
+  },
+  {
+    "imgId": 8,
+    "restId": 2,
+    "imgType": 3,
+    "imgAdd": "https://agc-storage-drcn.platform.dbankcloud.cn/v0/shopping-wusoo/videos%2Fdishs_display.mp4?token=bb3ee71e-37be-4cf2-a6c0-8989fce16616"
+  },
+  {
+    "imgId": 9,
+    "restId": 3,
+    "imgType": 1,
+    "imgAdd": "rest3_food1"
+  },
+  {
+    "imgId": 10,
+    "restId": 3,
+    "imgType": 1,
+    "imgAdd": "rest3_food2"
+  },
+  {
+    "imgId": 11,
+    "restId": 3,
+    "imgType": 1,
+    "imgAdd": "rest3_food3"
+  },
+  {
+    "imgId": 12,
+    "restId": 3,
+    "imgType": 3,
+    "imgAdd": "https://agc-storage-drcn.platform.dbankcloud.cn/v0/shopping-wusoo/videos%2Fdishs_display.mp4?token=bb3ee71e-37be-4cf2-a6c0-8989fce16616"
+  },
+  {
+    "imgId": 13,
+    "restId": 4,
+    "imgType": 1,
+    "imgAdd": "rest4_food1"
+  },
+  {
+    "imgId": 14,
+    "restId": 4,
+    "imgType": 1,
+    "imgAdd": "rest4_food2"
+  },
+  {
+    "imgId": 15,
+    "restId": 4,
+    "imgType": 1,
+    "imgAdd": "rest4_food3"
+  },
+  {
+    "imgId": 16,
+    "restId": 4,
+    "imgType": 3,
+    "imgAdd": "https://agc-storage-drcn.platform.dbankcloud.cn/v0/shopping-wusoo/videos%2Fdishs_display.mp4?token=bb3ee71e-37be-4cf2-a6c0-8989fce16616"
+  }
+]

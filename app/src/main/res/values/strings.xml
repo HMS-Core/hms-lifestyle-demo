@@ -1,0 +1,413 @@
+<resources>
+    <string name="app_name">Life Style Demo</string>
+    <string name="app_at_url" translatable="false">https://oauth-login.cloud.huawei.com/oauth2/v3/token</string>
+    <string name="product_file_path">rest</string>
+    <string name="food_file_path">food</string>
+    <string name="img_file_path">image</string>
+
+    <!-- BaseActivity-->
+    <string name="log_in_success">Login Successfully</string>
+    <string name="log_in_fail">Login Failed:</string>
+    <string name="log_out_success">Logout Successfully</string>
+
+    <!-- BaseDialog-->
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_in_first">Please login first</string>
+
+    <!-- MainActivity-->
+    <string name="title_home">Home</string>
+    <string name="title_video">Comment</string>
+    <string name="title_my">My</string>
+    <string name="title_msg">Msg</string>
+    <string name="title_scan">Scan</string>
+    <string name="title_voice">Voice</string>
+    <string name="notice">RequestNotice</string>
+    <string name="sys_integrity_detecting">Detecting...</string>
+    <string name="first_press_back">Press again to exit</string>
+    <string name="ad_flag">Ad</string>
+    <string name="add_coupon_success">Add coupon success</string>
+    <string name="restaurant_not_existence">Restaurant not existence</string>
+    <string name="please_use_correct_qr_code">Please use correct QR Code</string>
+
+    <string name="data_init_fail">Data Initialization failed, please restart Demo.</string>
+
+
+    <string name="version_checking">Checking...</string>
+    <string name="is_the_latest_version">You version is up to date.</string>
+    <string name="found_new_version">New version detected.\n Click here to update.</string>
+    <string name="no_found_new_version">Failed to check the new version. Please try again later.</string>
+    <!-- SearchActivity-->
+    <string name="search_no_tip">Please input content to search</string>
+    <string name="search_history">Search History</string>
+    <string name="search_hot">Hot Search</string>
+    <string name="delete_history">Clear History</string>
+    <string name="check_delete_history">Do you confirm to delete history?</string>
+
+    <!-- MyFragment--> 
+    <string name="my_logout">Logout</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="please_sign_first">Please login first</string>
+    <string name="confirm_log_out">Do you confirm to log out?</string>
+
+    <!-- NewsListFragment-->
+    <string name="news_no_data">No Data</string>
+    <string name="news_no_more_data">No More Data</string>
+
+    <!-- kits information-->
+    <string name="power_by">Powered By HMS Core</string>
+
+    <string name="adskit_name">Ads Kit</string>
+    <string name="ads_link">https://developer.huawei.com/consumer/en/hms/huawei-adskit?ha_source=hms7</string>
+    <string name="ads_ads">Ads Shown</string>
+
+    <string name="accountkit_name">Account Kit</string>
+    <string name="account_link">https://developer.huawei.com/consumer/en/hms/huawei-accountkit?ha_source=hms7</string>
+    <string name="account_login">One-click Sign-in</string>
+
+    <string name="map_location">Location Kit&amp;Map Kit</string>
+    <string name="gps_is_off">Some functions may be unavailable when the GPS switch is disabled.</string>
+
+    <string name="map_location_link">https://developer.huawei.com/consumer/en/hms/huawei-MapKit?ha_source=hms7</string>
+    <string name="delivery_path">Delivery Path Show</string>
+    <string name="map_location_des">Generate the proper path from restaurant to user location. The deliverer can follow the path to send the food to user quickly. It will improve the operation efficiency.</string>
+
+    <string name="mapkit_name">Map Kit</string>
+    <string name="map_link">https://developer.huawei.com/consumer/en/hms/huawei-MapKit?ha_source=hms7</string>
+    <string name="map_map">Global Map shown</string>
+
+    <string name="site_name">Site Kit</string>
+    <string name="site_link">https://developer.huawei.com/consumer/en/hms/huawei-sitekit?ha_source=hms7</string>
+    <string name="site_geo">Nearby Search </string>
+    <string name="site_geo_des">Address autocomplete capability suggests location names and addresses with keywords entered by the users, which helps users fill in addresses more quickly and optimize purchase experience.</string>
+
+    <string name="scan_name">Scan Kit</string>
+    <string name="scan_link">https://developer.huawei.com/consumer/en/hms/huawei-scankit?ha_source=hms7</string>
+    <string name="scan_pay">Scan Pay</string>
+    <string name="scan_code">Scan QrCode</string>
+    <string name="scan_shopping">Scan Shopping</string>
+    <string name="scan_qr_des">The scanning service can scans, parses, and generates major 1D and 2D barcodes, and realize restaurant operation such as coupon obtain or restaurant sharing. (Scan Kit can be integrated into both Android and iOS apps.)</string>
+
+    <string name="mlkit_name">ML Kit</string>
+    <string name="ml_link">https://developer.huawei.com/consumer/en/hms/huawei-mlkit?ha_source=hms7</string>
+    <string name="ml_asr">ASR</string>
+    <string name="ml_translate">Text Translation</string>
+    <string name="ml_resolution">Image Super-Resolution</string>
+    <string name="ml_bankcard">Bank Card Recognition</string>
+
+    <string name="analytics_name">Analytics Kit</string>
+    <string name="analytics_link">https://developer.huawei.com/consumer/en/hms/huawei-analyticskit?ha_source=hms7</string>
+    <string name="analytics_report">Analytics Report</string>
+
+    <string name="location_name">Location Kit</string>
+    <string name="location_link">https://developer.huawei.com/consumer/en/hms/huawei-locationkit?ha_source=hms7</string>
+    <string name="location_geo">GeoFence</string>
+    <string name="location_lbs">LBS</string>
+
+    <string name="push_name">Push Kit</string>
+    <string name="push_link">https://developer.huawei.com/consumer/en/hms/huawei-pushkit?ha_source=hms7</string>
+    <string name="push_message">Message Push</string>
+    <string name="subscribe_message">Subscription/Favorite item Message</string>
+
+    <string name="video_name">Video Kit</string>
+    <string name="video_link">https://developer.huawei.com/consmer/en/hms/huawei-videokit?ha_source=hms7</string>
+    <string name="video_play">Video Display</string>
+
+    <string name="iap_name">In-App Purchases</string>
+    <string name="iap_link">https://developer.huawei.com/consumer/en/hms/huawei-iap?ha_source=hms7</string>
+    <string name="member_purchase">Members Purchase</string>
+
+    <string name="panorama_name">Panorama Kit</string>
+    <string name="panorama_link">https://developer.huawei.com/consumer/en/hms/huawei-panoramakit?ha_source=hms7</string>
+    <string name="panorama_fullview">Interactive Viewing</string>
+
+    <string name="safety_name">Safety Detect</string>
+    <string name="safety_link">https://developer.huawei.com/consumer/en/hms/huawei-safetydetectkit?ha_source=hms7</string>
+    <string name="system_integrate">System integrity</string>
+
+    <string name="network_name">Network Kit</string>
+    <string name="network_link">https://developer.huawei.com/consumer/en/hms/huawei-networkkit?ha_source=hms7</string>
+    <string name="good_connection">High Quality Connection</string>
+
+    <string name="wallet_name">Wallet Kit</string>
+    <string name="wallet_link">https://developer.huawei.com/consumer/en/hms/huawei-walletkit?ha_source=hms7</string>
+    <string name="wallet_member">Loyalty Cards</string>
+
+    <string name="fido_name">FIDO Kit</string>
+    <string name="fido_link">https://developer.huawei.com/consumer/en/hms/huawei-fido?ha_source=hms7</string>
+    <string name="fido_face">Facial Authentication</string>
+    <string name="fido_finger">Fingerprint Authentication</string>
+
+    <string name="ml_translation_des">Online translation between 40 languages enables users around the world to browse comment content.</string>
+    <string name="ml_resolution_des">Improves the resolution of restaurant images for better restaurant browsing experience and saves cloud resources.</string>
+    <string name="ml_bankcard_des">ML Kit pure end-side capabilities for general card OCR, including bank card recognition, covering five major types of bank card globally with low latency and an accuracy rate of 99&#37;, which can be widely used in financial payment scenarios.</string>
+    <string name="account_login_des">One-click sign-in capability help users sign HUAWEI ID into Life style App without manual login or verification.</string>
+    <string name="iap_sub_des">In-App Purchases support subscription and membership purchase experience with multi-language, multi-restaurant, multi-payment methods, etc.</string>
+    <string name="video_play_des">The video service supports smoother HD video playback, allowing users to fully know the restaurant in a more scene-oriented experience.</string>
+    <string name="ads_des">Huawei ads service supports multiple advertisement display modes, such as splash ads when an app is opened, native ads are inserted in the restaurant list to obtain monetization benefits for life style app developers.</string>
+    <string name="location_lbs_des">Accurate access to the location of users and displays nearby restaurants.</string>
+    <string name="push_notify_des">The timely and accurate message push service helps applications reach users precisely and improve user experience.</string>
+    <string name="push_sub_des">The push messages triggered by users through subscription and favorite items and other actions accurately reaches the users, optimizing the operation work and promoting consumption.</string>
+    <string name="analytics_report_des">Huawei Analytics Service provides free data analysis and comparison for a wide range of devices and platforms, so you can make informed decisions on restaurant optimization and marketing based on your users\' behavior.</string>
+    <string name="ml_asr_des">Achieve high-precision ASR (Automatic Speech Recognition) capability for life style App voice search to help users quickly search for restaurant and food.</string>
+    <string name="panorama_fullview_des">360° showcases and interactions in a 3D space are the future of image viewing. Immerse your users in an all-encompassing experience.</string>
+    <string name="safety_detect_sys_des">Provide system integrity detection, false user detection, malicious WiFi detection and other services, create a safe online food payment environment for users, and help developers\' App to prevent batch registration and database collision attacks.</string>
+    <string name="network_connect_des">Network Kit aggregates far-field network communication best practices to provide easy-to-use, low-latency, high-throughput, and high-security device-cloud transmission channels. In the future, more functions such as hQuic will be added to provide faster connection setup speed, stronger packet loss resilience, and higher throughput.</string>
+    <string name="wallet_member_des">Users can add various types of loyalty cards to HUAWEI Wallet and view their exclusive benefits.</string>
+    <string name="fido_finger_des">Huawei provides the secure fingerprint authentication capability. Quick user authentication by fingerprint verification.</string>
+    <string name="fido_face_des">Huawei provides the secure facial authentication capability. Quick user authentication by facial verification.</string>
+
+    <!--address-->
+    <string name="address_manage">Address Management</string>
+    <string name="address_choose">Address Choose</string>
+    <string name="address_add">Address Add</string>
+    <string name="address_save">Address save</string>
+    <string name="address_delete">Address delete</string>
+    <string name="delete">Delete</string>
+    <string name="one_default_address">Set at least one default address</string>
+    <string name="default_address">default address</string>
+    <string name="edit">edit</string>
+
+    <string name="my_order">My Order</string>
+    <string name="send_to">Send to:</string>
+    <string name="money_unit">￥</string>
+    <string name="time">Time</string>
+    <string name="have_sent">Delivered</string>
+    <string name="have_comment">Finished</string>
+    <string name="wait_send">Delivering</string>
+    <string name="wait_pay">Need2Pay</string>
+    <string name="have_ensure">Finished</string>
+
+    <string name="contact">Contact</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="region">Region</string>
+    <string name="region_hint">Please enter a region</string>
+    <string name="address">Detailed Address</string>
+    <string name="address_hint">Building/House Number</string>
+    <string name="set_default_address">Set the default address</string>
+    <string name="zero_result_toast"> No  result find</string>
+    <string name="please_enter_info">please enter needed information</string>
+    <string name="location">location</string>
+
+
+    <string name="user_center">User Center</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="voucher_management">Voucher Management</string>
+    <string name="message_box">Message box</string>
+    <string name="settings">Settings</string>
+    <string name="order_center">Order Center</string>
+    <string name="card_package">Card</string>
+    <string name="coupon_package">Coupon</string>
+    <string name="order_delete_confirm">Do you want to delete this order?</string>
+
+    <!-- TakeawayActivity -->
+    <string name="to_pay">To Pay</string>
+    <string name="order_dishes"> Order Dishes </string>
+    <string name="assessment"> Assessment </string>
+    <string name="statistic">Picked %d dishes, totaling ￥%d</string>
+    <string name="statistic_non">Picked 0 dishes, totaling ￥0</string>
+    <string name="announcement">Announcement: Welcome, glad to serve you ~</string>
+    <string name="delivery_duration">Delivery takes about 47 minutes</string>
+    <string name="product_no_wifi">Video cannot be played without Wifi connection. You can connect to Wifi and restart the app.</string>
+    <string name="coupon_claimed">The coupon has been claimed.</string>
+    <string name="pick_coupon">Take</string>
+    <string name="coupon_rule">%d - %d</string>
+    <string name="sales_volume">Monthly Sales1588 positive reviews98%</string>
+
+
+    <!-- OrderSubmitActivity -->
+    <string name="total_price">￥%d</string>
+    <string name="discounted">Discounted</string>
+    <string name="submit_order">Submit Order</string>
+    <string name="dispatch">Immediate Dispatch</string>
+    <string name="delivered_time">Delivered around %s</string>
+    <string name="business_hours">Business Hours %s</string>
+    <string name="configure_address">Please Configure The Address</string>
+    <string name="address_info">%s %s</string>
+    <string name="user_info">%s %s</string>
+    <string name="packing_charges">Packing Charges</string>
+    <string name="delivery_charges">Delivery Charges</string>
+    <string name="count">x%d</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="discounted_bottom">Discounted ￥%d</string>
+    <string name="please_select_address">Please Select Address</string>
+    <string name="order_status">Order Status</string>
+    <string name="order_status_submit">Order Submitted</string>
+    <string name="order_status_paid">Order Paid</string>
+    <string name="order_status_delivered">Order Delivered</string>
+
+    <!-- CashierActivity -->
+    <string name="cashier">Cashier</string>
+    <string name="select_payment_method">Select Payment Method</string>
+    <string name="need_to_pay">Need To Pay %d Yuan</string>
+    <string name="brush_face_payment">Face Payment</string>
+    <string name="fingerprint_payment">Fingerprint Payment</string>
+    <string name="bank_card_payment">Bank Card Payment</string>
+    <string name="add_bank_card_tips">Please add a bank card first.</string>
+    <string name="face_failed">Face verification failed.</string>
+    <string name="fingerprint_failed">Fingerprint verification failed.</string>
+    <string name="add_bank_card_failed">Failed to add the bank card:%s.</string>
+    <string name="bank_card_result">Bank Card info\n%s</string>
+    <string name="facial_function_tips">The current user has not set face information. Please go to set face information.</string>
+    <string name="fingerprint_function_tips">The current user has not set fingerprint information. Please go to set fingerprint information.</string>
+    <string name="time_out">Time out.</string>
+    <string name="enroll_fingerprint">Enroll a fingerprint</string>
+    <string name="enroll_fingerprint_coaching">Go to Settings, find Fingerprint, and record fingerprints.</string>
+    <string name="enroll_face">Enroll a face</string>
+    <string name="enroll_face_coaching">Go to Settings, find Facial Recognition, and record a face.</string>
+    <string name="facial_identifying">Facial recognition in progress.</string>
+    <string name="face_acquired_good">Please keep.</string>
+    <string name="face_acquired_too_bright">The light is too strong.</string>
+    <string name="face_acquired_too_dark">The light is too dim.</string>
+    <string name="face_acquired_too_close">To get too close.</string>
+    <string name="face_acquired_too_far">It is too far away.</string>
+    <string name="face_acquired_too_high">The phone is too high.</string>
+    <string name="face_acquired_too_low">The phone is too low.</string>
+    <string name="face_acquired_too_right">The phone is too to the right.</string>
+    <string name="face_acquired_too_left">The phone is too to the left.</string>
+
+    <!-- PaymentSucceedActivity -->
+    <string name="payment_succeeded">Payment succeeded!</string>
+    <string name="paid">Paid %d Yuan</string>
+    <string name="view_orders">View Orders</string>
+    <string name="to_home_page">Back To Home Page</string>
+    <string name="privacy_title">Permissions and User Agreement</string>
+    <string name="privacy_state">This is a demo app that helps you understand how to use HMS Core capability in a Life Style application, and learn how to integrate the HMS Core SDKs or Kits in your app. This app demonstrates the flow includes food view, coupon manage, order and takeaway, address management, food delivery.\n\nHMS Core offers an innovative solution that assists Life Style apps with quick customer acquisition and improved conversion rates, for sustainable business growth.\n\nLearn more</string>
+    <string name="privacy_title2">Privacy</string>
+    <string name="privacyReject">Decline</string>
+    <string name="privacyaccept">Accept</string>
+    <string name="privacycontinue">Continue</string>
+    <string name="exitMessage">Exit from Life Style Demo App</string>
+    <string name="confirm_button">OK</string>
+    <string name="readme_url">https://github.com/HMS-Core/hms-news-demo/blob/main/README.md</string>
+    <string name="readme_title">here.</string>
+    <string name="agreement_url">file:///android_asset/documents/agreement.html</string>
+    <string name="agreement_title">Life Style Demo User Agreement.</string>
+    <string name="statement_url">file:///android_asset/documents/privacy.html</string>
+    <string name="privacy_summary1">This service requires "Location" permission to show city information in the main page, generate the virtual restaurant position and build the delivery path, "Microphone" permission to provide voice search, "Storage" permission to insert picture and video in comments, "Camera" permission to provide QR scan, bank card payment and take photo for comment. If you are using this app without being logged in to a HUAWEI ID, you hereby confirm that you are aged 18 years or over. By enabling the service, you grant the above permissions, acknowledge the Privacy Statement below, and accept the terms of the </string>
+    <string name="statement_title">Statement about Life Style Demo and Privacy.</string>
+    <string name="url_error">The Url is error</string>
+    <string name="owner">Huawei Developers</string>
+    <string name="copyright_info">Copyright 2021 Huawei Technologies Co.Ltd</string>
+    <string name="help_and_feedback">Survey</string>
+    <string name="question1">Q1.Please let us know your feedback about this Demo, whether it is helpful ?</string>
+    <string name="question2">Q2. Any suggestions are greatly appreciated.</string>
+    <string name="question3">Q3. Are you satisfied with our demo ?</string>
+    <string name="feedback_content">Please enter your comments</string>
+    <string name="rating">Rating</string>
+    <string name="submit">Submit</string>
+    <string name="confirm_feedback">Thank you for your suggestions and we will analyze them and improve them as soon as possible.</string>
+    <string name="version_update">Version Update</string>
+    <string name="search_no_result">The result is empty</string>
+    <string name="comment_post">Post comments</string>
+    <string name="comment_save">Save</string>
+    <string name="comment_release">Release</string>
+    <string name="comment_food">Food</string>
+    <string name="comment_merchant">Associated Merchant</string>
+    <string name="comment_take_picture">Take photo</string>
+    <string name="comment_choose_from_gallery">Gallery</string>
+    <string name="comment_public_success">Thanks for your comment.</string>
+    <string name="image_crop">Crop image</string>
+    <string name="comment_rating">Rating:</string>
+    <string name="comment_hint">Please leave your comments here. Describe your feeling about the restaurant.</string>
+    <string name="comment_rating_leval5">Very satisfied</string>
+    <string name="comment_rating_leval4">Satisfaction</string>
+    <string name="comment_rating_leval3">General</string>
+    <string name="comment_rating_leval2">Poor</string>
+    <string name="comment_rating_leval1">Very poor</string>
+    <string name="pay_setting">Payment Settings</string>
+    <string name="pay_by_face">Face payment</string>
+    <string name="pay_by_fingerprints">Fingerprint payment</string>
+    <string name="pay_by_bank">Payment by bank card</string>
+    <string name="pay_auth_result">Authentication Result</string>
+    <string name="pay_auth_success">Authentication succeeded</string>
+    <string name="pay_auth_fail">Authentication failed</string>
+
+    <!-- SystemSettingActivity -->
+    <string name="setting_contactus">Contact Us</string>
+    <string name="setting_versionupdate">Version Update</string>
+    <string name="setting_survey">Survey</string>
+    <string name="survey_link">http://xl9guarfvngmk4ep.mikecrm.com/47uNVx1</string>
+    <string name="setting_privacy">Privacy Statement</string>
+    <string name="setting_notify">Message Notification</string>
+    <string name="setting_pay">Payment Settings</string>
+
+    <!--push -->
+    <string name="title_messagetitle">%1$s</string>
+    <string name="title_messagebody">%1$s</string>
+    <string name="sys_integrity_detect_success">The system check is complete and your system is safe and available.</string>
+
+    <!--comment -->
+    <string name="wifi_status_hint">Your Wi-Fi status is not secure. please check the Wi-Fi status.</string>
+    <string name="comment_networkerror">network error,please try it again later</string>
+    <string name="messageinfo_hints"> This function is not available. Look forward to it.</string>
+    <string name="comment_image_key">Image_url_cn</string>
+    <string name="image_downloading">Loading resources</string>
+    <string name="title_comment_count">(%1$d reviews)</string>
+    <string name="title_rating">Rating</string>
+    <string name="title_drive">Go</string>
+    <string name="comment_no_data">No comments</string>
+    <string name="title_takeaway">TakeAway ></string>
+    <string name="title_comment">Comments</string>
+    <string name="commmet_translate">Translate</string>
+    <string name="coupon_five2one">10 - 1</string>
+    <string name="coupon_thirty2five">30 - 5</string>
+    <string name="coupon_fifty2ten">50 - 10</string>
+    <string name="comment_username">Anonymous user</string>
+    <string name="comment_publish_time">Posted in </string>
+    <string name="comment_score">points</string>
+    <string name="comment_no_score">No Rating</string>
+    <string name="comment_membercard">The membership card is obtained successfully.</string>
+    <string name="title_panaroma">Panoramic display</string>
+    <string name="navigation_hint">You will be redirected to Petal Map for navigation.</string>
+    <string name="navigation_not_support">The navigation function is not supported in China</string>
+    <string name="member_platinum">Platinum VIP Member</string>
+    <string name="member_join">Join Now</string>
+    <string name="member_pick">Pick Coupon</string>
+
+    <!--  Coupon  -->
+    <string name="coupon_discount">￥%d</string>
+    <string name="coupon_condition">Use when the consumption reaches %d</string>
+    <string name="coupon_validity_period">Validity:%s-%s</string>
+    <string name="coupon_use">USE</string>
+    <string name="card_number">Bank Card Number :</string>
+    <string name="card_issuer">Issue Bank :</string>
+    <string name="card_expire">Expire Date :</string>
+    <string name="card_type">Card Type :</string>
+    <string name="card_organization">Organization :</string>
+    <string name="card_pay">Pay</string>
+
+
+    <!-- ContactUsActivity-->
+    <string name="life_style">Life Style Demo</string>
+    <string name="contact_title">Contact Us</string>
+    <string name="contact_version">Ver </string>
+    <string name="contact_developer">Huawei Developer Alias</string>
+    <string name="contact_mail">MailBox</string>
+    <string name="contact_sof">Stack Overflow</string>
+    <string name="contact_git">Github</string>
+    <string name="contact_reddit">Reddit</string>
+    <string name="contact_share">Share Us</string>
+    <string name="developer_address">https://developer.huawei.com/consumer</string>
+    <string name="mail_address">mailto:hmscore@huawei.com</string>
+    <string name="sof_address">https://stackoverflow.com</string>
+    <string name="git_address">https://github.com/HMS-Core</string>
+    <string name="reddit_address">https://www.reddit.com/r/HMSCore</string>
+    <string name="share_text">https://developer.huawei.com/consumer/en/solution/hms/ecommerce?ha_source=hms7</string>
+
+    <string name="developer_address_source">https://developer.huawei.com/consumer/en/hms?ha_source=hms7</string>
+    <string name="sof_address_source">https://stackoverflow.com</string>
+    <string name="git_address_source">https://github.com/HMS-Core?ha_source=hms7</string>
+    <string name="reddit_address_source">https://www.reddit.com/r/HMSCore?ha_source=hms7</string>
+
+    <!--  Card  -->
+    <string name="add_to_huawei_wallet">Add to HUAWEI Wallet</string>
+    <string name="save_success">Saving succeeded</string>
+    <string name="cancel_by_user">User Cancellation</string>
+    <string name="save_failed">Failed to add the card, please try again later</string>
+    <string name="wallet_card_number">Card Number</string>
+    <string name="wallet_scan">Scan by Life App</string>
+    <string name="rest_step">%1$sm</string>
+</resources>

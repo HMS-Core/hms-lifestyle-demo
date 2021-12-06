@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="shop_name_list">
+        <item>爱吃鱼</item>
+        <item>花瓣炸鸡</item>
+        <item>花瓣西餐厅</item>
+        <item>花瓣日料</item>
+    </string-array>
+
+    <string-array name="shop_addr_list">
+        <item>模拟地址1</item>
+        <item>模拟地址2</item>
+        <item>模拟地址3</item>
+        <item>模拟地址4</item>
+    </string-array>
+
+    <string-array name="search_hot">
+        <item>炸鸡</item>
+        <item>西餐</item>
+        <item>日料</item>
+    </string-array>
+
+    <string-array name="language_name">
+        <item>中文</item>
+        <item>عربي</item>
+        <item>Español</item>
+        <item>English</item>
+        <item>Français</item>
+        <item>русские</item>
+    </string-array>
+
+    <string-array name="language_code">
+        <item>zh</item>
+        <item>ar</item>
+        <item>es</item>
+        <item>en</item>
+        <item>fr</item>
+        <item>ru</item>
+    </string-array>
+</resources>

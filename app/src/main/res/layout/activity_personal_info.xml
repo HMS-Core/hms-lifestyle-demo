@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".page.PersonalInfoActivity">
+
+    <include
+            android:id="@+id/personal_info_title"
+            layout="@layout/layout_base_title" />
+
+    <ImageView
+            android:id="@+id/user_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:onClick="login"
+            android:src="@mipmap/default_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/personal_info_title" />
+
+    <TextView
+            android:id="@+id/nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:onClick="login"
+            android:paddingBottom="30dp"
+            android:text="@string/click_to_login"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@id/user_icon" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/personal_mgt"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#f7f7f7"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nickname">
+
+        <Button
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="center_vertical"
+                android:onClick="openAddressList"
+                android:paddingStart="20dp"
+                android:textAllCaps="false"
+                android:stateListAnimator="@null"
+                android:text="@string/address_manage"
+                android:textColor="#0f0f0f"
+                android:textSize="20sp"
+                android:typeface="sans"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:onClick="openAddressList"
+                android:paddingVertical="15dp"
+                android:src="@drawable/icon_forward"
+                app:layout_constraintBottom_toBottomOf="@id/address"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/address" />
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:foreground="?android:listChoiceBackgroundIndicator"
+                android:gravity="center_vertical"
+                android:onClick="signOut"
+                android:textAllCaps="false"
+                android:paddingStart="20dp"
+                android:stateListAnimator="@null"
+                android:text="@string/my_logout"
+                android:textColor="#0f0f0f"
+                android:textSize="20sp"
+                android:typeface="sans"
+                app:layout_constraintTop_toBottomOf="@id/address" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
